@@ -1,0 +1,104 @@
+<!DOCTYPEhtml>
+    <html>
+
+    <head>
+        <title>Registration Form</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body style="background-color: crimson;">
+
+        <div class="nav" >
+            <div class="logo"> <span><img src="Image/picture1.png" height="100px"></span></div>
+
+            <div class="navLi">
+                <div class="navLi2"> <a href="index.html">Home</a></div>
+                <div class="navLi2"> <a href="package.html">Packages</a></div>
+                <div class="navLi2"> <a href="register2.html">Log in</a></div>
+                <div class="navLi3"> <a href="contact.html">Contact Us</a></div>
+            </div></div>
+
+        <form action="https://www.w3schools.com/action_page.php" method="POST" target="_blank">
+
+            <fieldset style="width: auto; justify-content: center; padding:30px; margin: 30px;">
+                <div class = "baseForm">
+                    <legend style="font-size:x-large;color: darkred; padding: 10px; 
+                    text-align: center;"><hr><h1> Please Input Personal Information</h1><hr> </legend>
+
+                    <div class="parentForm">
+                        <div class="nameForm">
+                            <legend style="font-size: xx-large;color: darkred; padding: 10px; 
+                            text-align:left;"> Names: </legend><hr>
+
+                            First Name&nbsp;<input type="text" name="firstname" placeholder="ex:Firstname" required> &nbsp;&nbsp;
+                            Middle Name&nbsp;<input type="text" name="middlename"placeholder="ex:Middlename">&nbsp;&nbsp;
+                            Last Name&nbsp;<input type="text" name="lastname" placeholder="ex:Lastname" required><br><br></div>
+
+                        <div class="dateForm">
+                            <legend style="font-size: xx-large;color: darkred; padding: 10px;
+                             text-align:left;"> Birth Date: </legend><hr>
+
+                            Day&nbsp;<input type="text" name="day" id="dayTx" placeholder="01" style="width:20px"
+                                onkeyup="validate(this.id, 'inputErr')" required >
+                                <span id="inputErr" style="display: none"> &#x2717;</span>&nbsp;&nbsp;
+                            Month&nbsp;<input type="text" name="month" id="monthTx" placeholder="mm" style="width:30px" 
+                                onkeyup="validate( this.id , 'inputErr')" required >&nbsp;&nbsp;
+                                <span id="inputErr" style="display: none"> &#x2717;</span>&nbsp;&nbsp;
+                            Year&nbsp;<input type="text" name="year" required id="yearTx" placeholder="yyyy"style="width:40px"
+                                onkeyup="validate(this.id, 'inputErr')">&nbsp;&nbsp;
+                                <span id="inputErr" style="display: none"> &#x2717;</span>&nbsp;&nbsp;
+                                <br><br></p></div>
+
+                        <div class="genderForm">
+                             <legend style="font-size: xx-large;color: darkred; padding: 10px;
+                             text-align:left;"> Gender: </legend><hr>
+
+                             <input type="radio" name="gender" value="cat">Male
+                             <input type="radio" name="gender" value="dog">Female
+                             <input type="radio" name="gender" value="none" checked> Unclassified <br><br>
+                             </div>
+
+                        <div class="addressForm">
+                            <legend style="font-size: xx-large;color: darkred; padding: 10px;
+                                 text-align:left;"> Address: </legend><hr>
+
+                            Street Address (Line 1)<br>
+                            <input type="text" name="street1" style="width: 80%" required><br><br>
+                            Street Address (Line 2)<br>
+                            <input type="text" name="street2" style="width: 80%"><br><br>
+                            City<br>
+                            <input type="text" name="city" required><br><br>
+                            State / Province<br>
+                            <input type="text" name="stateorprovince" required><br><br>
+                            Postal / Zip Code<br>
+                            <input type="text" name="postalorzipcode" required><br><br>
+                            Country<br>
+                            <input type="text" name="country" required></div>
+
+                        <div class="otherForm">
+                            
+                                <div class = "InputTagForm">
+                                    E-mail: <br><br>
+                                    Home phone no: <br><br>
+                                    Business phone no: <br><br>
+                                    User ID: <br><br>
+                                    Password: <br></div>
+                                <div class = "inputForm">
+                                    <input type="text" name="email" placeholder="ex:name@gmail.com" required><br><br>
+                                    <input type="text" name="hPhone" placeholder="ex:+1(403)123 4568" required><br><br>
+                                    <input type="text" name="bphone" placeholder="ex:+1(403)123 4568"><br><br>
+                                    <input type="text" name="userId"><br><br>
+                                    <input type="text" name="password" required></div></div>    
+
+                                         
+                        <div class ="buttonsForm" style=" padding-left: 50px; ">
+                            <input type="reset" value="Clear form" style="background-color: brown;" >    
+                            <input type="submit" value="Send the Data" style = "background-color: green;"> </div>
+                </div>
+            </fieldset>
+
+        </form>
+    </body>
+
+    </html>

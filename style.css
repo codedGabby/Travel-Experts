@@ -1,0 +1,167 @@
+html{
+    background-color: transparent;
+}
+
+body {
+    background-color: goldenrod;
+}
+.container{
+ display: flex;
+ flex-direction: column;
+}  
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: crimson; 
+    padding:2px; 
+    height: 70px;   
+    font-size: large;
+    font-style: normal;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLi {      
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+.navLi2 {      
+    margin: 50px;
+}
+.navLi3 {      
+    margin: 50px;
+}
+.center {
+    display: flex;
+    flex-direction: row;
+    background: url("Image/plane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;  
+    font-size: large;
+    margin-top: 4px;
+    justify-content: space-between;
+}
+
+.welcome1 {
+    display: flex;
+    color: cornsilk;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-around;
+    background-color: transparent;
+    padding:10px; 
+    font-size: 1.5em ;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    
+}
+.welcome2 {
+    color:purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent; 
+    width: 30%;
+    font-size: xx-large;
+    font-style: italic;
+    margin-top: 5%;
+}
+
+.welcome3 {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    align-items: center;
+    background-color: transparent; 
+    width: 30%;
+    margin-left: 20px;
+    border-style:solid;
+    margin-left: 20px;
+    color: crimson;
+}
+
+.other {
+    background-color:transparent;  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px; 
+    margin-bottom: 50px;   
+    font-size: large;
+    font-style: italic;
+}
+
+.baseForm{
+    background-color:goldenrod;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.parentForm {
+    font-size: large;
+    width: 1200px;
+    border: dotted;
+    margin-bottom: 20px;
+}
+
+.nameForm{
+    margin-left: 100px;
+    border: groove;
+    padding: 10px;
+    margin: 20px;
+}
+
+.dateForm{
+    margin-left: 100px;
+    border: groove;
+    padding: 10px;
+    margin: 20px;
+}
+
+.genderForm{
+    margin-left: 100px;
+    border: groove; 
+    padding: 10px;
+    margin: 20px;
+}
+.addressForm{
+    margin-left: 100px;
+    border: groove; 
+    padding: 30px;
+    margin: 20px;
+
+}
+
+.otherForm{
+    margin-left: 100px;
+    border: groove; 
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.inputForm{
+
+    margin-left: 50px;
+}
+
+.buttonsForm{
+    font-size: x-large ;
+    font-weight: bolder;
+    color:black; 
+    display :flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}

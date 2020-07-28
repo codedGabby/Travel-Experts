@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Register</title>
+   <link type="text/css" rel="stylesheet" href="register.css"
+   <script type='text/javascript' src='register.js'></script>
+</head>
+
+<body>
+    <br><br>
+    <div class="center">
+        <h1>Log-in here!</h1>
+        
+        <form action="https://register.html" method="GET" target="_blank">
+            <fieldset style="background-color: bisque; text-align: left;">
+                <legend>
+                    <h3> Log-in Window</h3>
+                </legend>
+                Name: <input type="text" id="firstName" placeholder="first name" style="height: 2em;"> &nbsp;
+                      <input type="text" id="lastName" placeholder="last name" style="height: 2em;"> <br> <br>
+                Address: <input type="text" id="address" style="height: 2em;" size="40">
+                City: <input type="text" id="city" style="height: 2em;">
+                Province: <input type="text" id="province" style="height: 2em;">
+                Country: <input type="text" id="country" style="height: 2em;"> <br> <br>
+                Postal / Zip Code: <input type="text" id="postal" style="height: 2em;"><br> <br>
+                Email: <input type="text" id="email" placeholder="ex:name@gmail.com" style="height: 2em;"> <br> <br>
+                Phone: <input type="text" id="phone" placeholder="ex:+1(403)200 0002" style="height: 2em;"> <br> <br>
+                Requests: <br>
+                <textarea id="myTextarea" rows="4" cols="50"> </textarea> <br> <br>
+                <p id='result1'></p>
+            </fieldset>
+        </form>
+        <br>
+        <div class="button"> <button  onclick="calculate()"> <h3>Submit</h3> </button> </div>        
+    </div>
+</body>
+
+</html>
